@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+#logo{
+    width: 120px;
+}
+
+#services{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 70%;
+    margin-top: -5%;
+    
+
+}
+#services a{
+    text-decoration: none;
+}
+#alvaro{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(97, 146, 173, 1);
+    text-align: center;
+    margin-top: 9%;
+    font-size: 50px;
+    
+
+}
+#trabalhos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    margin-top: 3%;
+    text-align: center;
+    
+}
+.d-block w-100{
+    width: 12px;
+    height: 12px;
+}
+
+.carousel-inner{
+    width: 70%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: black;
+    border-radius: 50%;
+}
+#vectoreskkss{
+    height: 30px;
+    margin-top: 3%;
+    justify-content: center;
+    margin-right: 100%; 
+}
+#vectoreskskss{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4%;
+
+}
+#vectors{
+    justify-content: space-evenly;
+    display: flex;
+    margin-left: 20%;
+    padding-right: 250px;
+    margin-top: 15%;
+}
+
+#e{
+  margin-top: 20%;
+  background-color: black;
+} 
+#vectoresksks{
+  height: 40px;   
+}
+#vectoresksks :hover{
+    fill:  rgba(97, 146, 173, 1);
+
+}
+
+
+
+
+.dark-mode main {
+    background-color: #1a1a1a; 
+}
+.dark-mode header {
+    background-color: #1a1a1a; 
+}
+
+.dark-mode a{
+    color: white;
+}
+
+.dark-mode  {
+    background-color: #000000; 
+    color: #fff; 
+}
+
+.cab div>button {
+    border-radius: 25px;
+    
+}
+
+.dark-mode .cab div>button  {
+    color: white;
+    background-color: black;
+}
+
+.dark-mode svg{
+    fill: white;
+}
+#dark{
+    margin-top: -81.8%;
+     margin-left: 95%;
+     
+}
+

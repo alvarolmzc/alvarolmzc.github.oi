@@ -1,0 +1,136 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+#logo{
+    width: 120px;
+}
+
+#services{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 70%;
+    margin-top: -6%;
+    
+}
+#services a{
+    text-decoration: none;
+}
+
+#alvaro{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(97, 146, 173, 1);
+    text-align: center;
+    margin-top: 9%;
+
+}
+#eu{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    font-size: 33px;
+}
+#eu2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 6%;
+    margin-top: 12%;
+    font-size: 33px;
+}
+#eu3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60%;
+    margin-top: 5%;
+    font-size: 33px
+}
+#eu4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20%;
+    margin-top: 10%;
+    font-size: 33px;  
+}
+#eu5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(97, 146, 173, 1);
+    margin-top: -10%;
+    font-size: 20px;
+    margin-left: 75%;   
+}
+#eu5 :hover{
+    color:   rgb(35, 54, 65) ;
+}
+#preta1{
+    width: 450px;
+    height: 320px;
+    background-color: black;  
+    margin-left: 60%;
+}
+#preta2{
+    width: 450px;
+    height: 320px;
+    background-color: black;  
+    margin-left: 7%;
+}
+#imgplaneta{
+    width: 450px;
+    height: 320px;
+    margin-top: -200%;
+    margin-left: 8%;
+}
+#dedin{
+    width: 450px;
+    height: 320px;
+    margin-left: 59%;
+    margin-top: -15%;
+}
+#pretoeranco{
+    margin-top: -13%;
+    height: 250px;
+    margin-left: 12%;
+    
+}
+#dados{
+    height: 250px;
+    width: px;
+    margin-top:-7%;
+    margin-left: 60%;
+}
+#espaco{
+    margin-top: 10%;
+}
+
+
+
+
+.dark-mode main {
+    background-color: #1a1a1a; 
+}
+.dark-mode header {
+    background-color: #1a1a1a; 
+}
+
+.dark-mode a{
+    color: white;
+}
+
+.dark-mode  {
+    background-color: #000000; 
+    color: #fff;
+    margin-top: -10%;
+}
+
+.cab div>button {
+    border-radius: 25px;
+}
+
+.dark-mode .cab div>button  {
+    color: white;
+    background-color: black;
+}
+
+.dark-mode svg{
+    fill: white;
+}
+
+#dark{
+    margin-top: -110.8%;
+    margin-left: 95%;
+}

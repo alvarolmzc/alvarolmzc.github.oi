@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="portifolio3.css">
+</head>
+
+<body>
+  <section id="xoxoto">
+    <div>
+      <img id="logo" src="logo 1.png" alt="">
+    </div>
+    <div id="services">
+      <a href="portifolio.html">
+        <p id="homeazul">Home</p>
+      </a>
+      <a href="portifolio2.html">
+        <p>trabalhos</p>
+      </a>
+      <a href="portifolio3.html">
+        <p>contato</p>
+      </a>
+      <a href="portifolio4.html"><p>competencias</p></a>
+      <p></p>
+    </div>
+  </section>
+  <section id="meio">
+    <div id="eu">
+      <h2 id="alvaro">
+        ALVARO LAMOUNIER
+      </h2>
+      <p id="contato">
+        Pagina de Contato
+      </p>
+    </div>
+    <div id="email"></div>
+    <div>
+      <p id="l">E-mail : 12302813@aluno.cotemig.com.br</p>
+    </div>
+    <div id="telefone"></div>
+    <div id="ll">
+      <p>telefone de contato : (31) 123456789</p>
+    </div>
+    <div id="negocios"></div>
+    <div id="lll">
+      <p>telefone para negocios : (31) 321457636</p>
+    </div>
+
+    <div id="ig"></div>
+    <div id="llll">
+      <p>instagram : alvaro_lmnr</p>
+    </div>
+    <div id="algumas">
+      <p>Essas são algumas das minhas redes sociais <br> caso queira me contactar.</p>
+    </div>
+    <div id="nomec">
+      <p>
+        Nome e sobrenome:
+      </p>
+    </div>
+
+  </section>
+
+
+
+
+
+  <div id="js">
+    <textarea id="texto" oninput="capitalizeFirstLetter()"></textarea>
+
+    <script>
+      function capitalizeFirstLetter() {
+        var textarea = document.getElementById("texto");
+        var text = textarea.value;
+
+        // Dividir o texto em palavras
+        var words = text.split(" ");
+
+        // Capitalizar a primeira letra de cada palavra
+        for (var i = 0; i < words.length; i++) {
+          var word = words[i];
+          if (word.length > 0) {
+            words[i] = word.charAt(0).toUpperCase() + word.slice(1);
+          }
+        }
+
+        // Juntar as palavras novamente e definir o valor da textarea
+        textarea.value = words.join(" ");
+      }
+    </script>
+
+  </div>
+  <div id="gamail">
+    <p>
+      Seu Gmail:
+    </p>
+  </div>
+
+  <div id="js1">
+    <textarea id="texto" oninput="capitalizeFirstLetter()"></textarea>
+
+    <script>
+      function capitalizeFirstLetter() {
+        var textarea = document.getElementById("texto");
+        var text = textarea.value;
+
+        // Dividir o texto em palavras
+        var words = text.split(" ");
+
+        // Capitalizar a primeira letra de cada palavra
+        for (var i = 0; i < words.length; i++) {
+          var word = words[i];
+          if (word.length > 0) {
+            words[i] = word.charAt(0).toUpperCase() + word.slice(1);
+          }
+        }
+
+        // Juntar as palavras novamente e definir o valor da textarea
+        textarea.value = words.join(" ");
+      }
+    </script>
+  </div>
+
+
+  <div id="teleco">
+    <p>
+      Numero de telefone:
+    </p>
+  </div>
+
+ <div id="js3">
+  <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adicionar Parênteses a Número de Telefone</title>
+    </head>
+    <body>
+        
+        <textarea id="phoneInput" placeholder=""></textarea>
+    
+        <script src="portifolio.js"></script>
+    </body>
+    </html>
+
+ </div>
+
+  <div id="telecos">
+    <p>
+      Algo Mais?
+    </p>
+  </div>
+
+  <div id="java">
+    <textarea id="javas" oninput="capitalizeFirstLetter()"></textarea>
+
+    <script>
+      function capitalizeFirstLetter() {
+        var textarea = document.getElementById("texto");
+        var text = textarea.value;
+
+        // Dividir o texto em palavras
+        var words = text.split(" ");
+
+        // Capitalizar a primeira letra de cada palavra
+        for (var i = 0; i < words.length; i++) {
+          var word = words[i];
+          if (word.length > 0) {
+            words[i] = word.charAt(0).toUpperCase() + word.slice(1);
+          }
+        }
+
+        // Juntar as palavras novamente e definir o valor da textarea
+        textarea.value = words.join(" ");
+      }
+    </script>
+  </div>
+
+  <div>
+    <button id="butao">
+      <p>
+        enviar
+      </p>
+    </button>
+  </div>
+  <div id="dark"><button id="darkmode">dark mode</button></div>
+  <script src="portifolio.js"></script>
+
+</body>
+</html>
